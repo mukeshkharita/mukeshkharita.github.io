@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Portfolio
-permalink: http://mukeshkharita.me
+permalink: /about/
 ---
 
 My name is Mukesh Kumar Kharita. I am B.Tech + M.Tech Dual Degree in 
