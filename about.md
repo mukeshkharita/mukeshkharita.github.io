@@ -4,4 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Introduce yourself here... so people will know who you are and what you do.. blah..blah..blah..
+My name is Mukesh Kumar Kharita. I am B.Tech + M.Tech Dual Degree in 
+Computer Science & Engineering Student of National Institute of Technology, 
+Hamirpur Himachal Pradesh. I love to write the code. I listen Music.
+
+You can see more about me here(http://mukeshkharita.me).
