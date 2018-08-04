@@ -1,6 +1,6 @@
 <!-- #$ Google Summer of Code 2018 with [WorldBrain.io - Verifying the Internet](https://worldbrain.io) -->
 
-## Hello!
+#### Hello!
 I am Mukesh Kumar Kharita studying at National Institute of Technlogy Hamirpur, Himachal Pradesh, India. I have worked on Custom Analytics during Google Summer of Code 2018 program.
 
 I started contributing to the [WorldBrain](https://worldbrain.io) in August 2017. I was new to open source at the time, so I started discussing on slack regarding the [Memex](https://github.com/WorldBrain/Memex) codebase; also I was a newbie to extensions codebase, therefore it was exciting for me.
@@ -22,6 +22,6 @@ Currently I am working on the static notifications having resolved the main bugs
 The code for the analytics backend is [here](https://github.com/WorldBrain/analytics-backend/commits?author=mukeshkharita).
 The code for the analytics on the extension is [here](https://github.com/WorldBrain/Memex/pulls?q=is%3Apr+author%3Amukeshkharita).
 
-By the end of official GSoC Coding period, I would have made 265 commits in the memex and analytics-backend codebase.
+By the end of official GSoC Coding period, I would have made 265 commits in the memex, analytics-backend and direct-linking-backend codebase.
 
 Over the summer I have fallen in love with the WorldBrain organization and have learned a lot of stuff. I'm really looking forward to adding more features in the Memex soon, so that the Memex extension becomes more useful to everyone. I enjoyed working on a really cool open-source project like WorldBrain this summer and am very thankful to Google for providing me this opportunity. I would encourage everyone reading this to give the Memex a try and contribute to Memex if possible. 
