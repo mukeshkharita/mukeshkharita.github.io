@@ -1,7 +1,7 @@
 <!-- #$ Google Summer of Code 2018 with [WorldBrain.io - Verifying the Internet](https://worldbrain.io) -->
 
 #### Hello!
-I am Mukesh Kumar Kharita studying at National Institute of Technlogy Hamirpur, Himachal Pradesh, India. I have worked on Custom Analytics during Google Summer of Code 2018 program.
+I am Mukesh Kumar Kharita studying at National Institute of Technology Hamirpur, Himachal Pradesh, India. I have worked on Custom Analytics during Google Summer of Code 2018 program.
 
 I started contributing to the [WorldBrain](https://worldbrain.io) in August 2017. I was new to open source at the time, so I started discussing on slack regarding the [Memex](https://github.com/WorldBrain/Memex) codebase; also I was a newbie to extensions codebase, therefore it was exciting for me.
 
