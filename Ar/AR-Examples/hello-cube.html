@@ -118,16 +118,7 @@ function initialize()
 		})
 	}, 5000);
 
-	var geometry1 = new THREE.TextGeometry( 'Hello three.js!', {
-		size: 80,
-		height: 5,
-		curveSegments: 12,
-		bevelEnabled: true,
-		bevelThickness: 10,
-		bevelSize: 8,
-		bevelOffset: 0,
-		bevelSegments: 5
-	} );
+	let geometry1	= new THREE.CubeGeometry(1,1,0);
 	let material1	= new THREE.MeshNormalMaterial({
 		transparent: true,
 		opacity: 1,
