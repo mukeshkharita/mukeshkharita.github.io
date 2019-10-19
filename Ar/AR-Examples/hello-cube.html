@@ -127,6 +127,7 @@ function initialize()
 	var loader = new THREE.FontLoader();
 	var font;
 	loader.load('./font.json', function(res) {
+		console.log(res);
 		font = res;
 	})
 
