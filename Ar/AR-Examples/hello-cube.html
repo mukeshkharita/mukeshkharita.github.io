@@ -130,8 +130,8 @@ function initialize()
 	loader.load('./font.json', function(font) {
 		var geometry = new THREE.TextGeometry( 'Hello three.js!', {
 			font: font,
-			size: 12,
-			height: 5,
+			size: 1,
+			height: 1,
 			curveSegments: 1,
 			bevelEnabled: true,
 			bevelThickness: 1,
@@ -141,7 +141,7 @@ function initialize()
 		} );
 
 		mesh1 = new THREE.Mesh( geometry, material1 );
-		mesh1.position.y = 0.5;
+		// mesh1.position.y = 0.5;
 		
 		markerRoot1.add( mesh1 );	
 	})
