@@ -118,17 +118,13 @@ function initialize()
 		})
 	}, 5000);
 
-	let material1	= new THREE.MeshNormalMaterial({
-		transparent: true,
-		opacity: 1,
-		side: THREE.DoubleSide
-	}); 
+	let material1	= new THREE.MeshNormalMaterial();
 
 	var loader = new THREE.FontLoader();
 	var font;
 
 	loader.load('./font.json', function(font) {
-		var geometry = new THREE.TextGeometry( 'Hello three.js!', {
+		var geometry = new THREE.TextGeometry( 'Mukesh', {
 			font: font,
 			size: 1,
 			height: 1,
