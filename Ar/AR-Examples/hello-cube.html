@@ -126,27 +126,25 @@ function initialize()
 
 	var loader = new THREE.FontLoader();
 	var font;
-	loader.load('./font.json', function(res) {
-		console.log(res);
-		font = res;
-	})
-
-	var geometry = new THREE.TextGeometry( 'Hello three.js!', {
-		font: font,
-		size: 80,
-		height: 5,
-		curveSegments: 12,
-		bevelEnabled: true,
-		bevelThickness: 10,
-		bevelSize: 8,
-		bevelOffset: 0,
-		bevelSegments: 5
-	} );
-
-	mesh1 = new THREE.Mesh( geometry, material1 );
-	mesh1.position.y = 0.5;
 	
-	markerRoot1.add( mesh1 );
+	loader.load('./font.json', function(font) {
+		var geometry = new THREE.TextGeometry( 'Hello three.js!', {
+			font: font,
+			size: 80,
+			height: 5,
+			curveSegments: 12,
+			bevelEnabled: true,
+			bevelThickness: 10,
+			bevelSize: 8,
+			bevelOffset: 0,
+			bevelSegments: 5
+		} );
+
+		mesh1 = new THREE.Mesh( geometry, material1 );
+		mesh1.position.y = 0.5;
+		
+		markerRoot1.add( mesh1 );	
+	})
 }
 
 
