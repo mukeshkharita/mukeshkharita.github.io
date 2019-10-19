@@ -118,29 +118,29 @@ function initialize()
 		})
 	}, 5000);
 
-	let material1	= new THREE.MeshNormalMaterial();
+	var materialFront = new THREE.MeshBasicMaterial( { color: 0xff0000 } );
+	var materialSide = new THREE.MeshBasicMaterial( { color: 0x000088 } );
+	var materialArray = [ materialFront, materialSide ];
+	var textGeom = new THREE.TextGeometry( "Hello, World!", 
+	{
+		size: 1, height: 1, curveSegments: 3,
+		font: "helvetiker", weight: "bold", style: "normal",
+		bevelThickness: 1, bevelSize: 2, bevelEnabled: true,
+		material: 0, extrudeMaterial: 1
+	});
+	// font: helvetiker, gentilis, droid sans, droid serif, optimer
+	// weight: normal, bold
+	
+	var textMaterial = new THREE.MeshFaceMaterial(materialArray);
+	var textMesh = new THREE.Mesh(textGeom, textMaterial );
+	
+	textGeom.computeBoundingBox();
+	var textWidth = textGeom.boundingBox.max.x - textGeom.boundingBox.min.x;
+	
+	textMesh.position.set( -0.5 * textWidth, 50, 100 );
+	textMesh.rotation.x = -Math.PI / 4;
 
-	var loader = new THREE.FontLoader();
-	var font;
-
-	loader.load('./font.json', function(font) {
-		var geometry = new THREE.TextGeometry( 'Mukesh', {
-			font: font,
-			size: 1,
-			height: 1,
-			curveSegments: 1,
-			bevelEnabled: true,
-			bevelThickness: 1,
-			bevelSize: 1,
-			bevelOffset: 0,
-			bevelSegments: 1
-		} );
-
-		mesh1 = new THREE.Mesh( geometry, material1 );
-		// mesh1.position.y = 0.5;
-		
-		markerRoot1.add( mesh1 );	
-	})
+	markerRoot1.add( textMesh );
 }
 
 
