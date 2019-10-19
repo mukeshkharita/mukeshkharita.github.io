@@ -126,18 +126,18 @@ function initialize()
 
 	var loader = new THREE.FontLoader();
 	var font;
-	
+
 	loader.load('./font.json', function(font) {
 		var geometry = new THREE.TextGeometry( 'Hello three.js!', {
 			font: font,
-			size: 80,
+			size: 12,
 			height: 5,
-			curveSegments: 12,
+			curveSegments: 1,
 			bevelEnabled: true,
-			bevelThickness: 10,
-			bevelSize: 8,
+			bevelThickness: 1,
+			bevelSize: 1,
 			bevelOffset: 0,
-			bevelSegments: 5
+			bevelSegments: 1
 		} );
 
 		mesh1 = new THREE.Mesh( geometry, material1 );
