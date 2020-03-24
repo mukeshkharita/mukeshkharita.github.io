@@ -4,8 +4,6 @@ title: Portfolio
 permalink: /about/
 ---
 
-My name is Mukesh Kumar Kharita. I am B.Tech + M.Tech Dual Degree in 
-Computer Science & Engineering Student of National Institute of Technology, 
-Hamirpur Himachal Pradesh. I love to write the code. I listen Music.
+My name is Mukesh Kumar Kharita. I am working at Wayfair as a Software Engineer in Berlin, Germany. I love to write the code. I listen Music.
 
 You can see more about me [here](http://mukeshkharita.me).
