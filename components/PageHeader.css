@@ -1,0 +1,45 @@
+.navBar {
+	background: rgba(15, 23, 42, 0.8) !important;
+	backdrop-filter: blur(10px);
+	border-radius: 0 !important;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif !important;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+	margin-bottom: 0 !important;
+	transition: all 0.3s ease;
+}
+
+.navBar a {
+	color: #e2e8f0 !important;
+	cursor: pointer;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	font-weight: 500;
+	transition: color 0.3s ease;
+
+	@media(max-width: 1000px) {
+		font-size: 0.85em;
+	}
+}
+
+.navBar .navbar-brand a {
+	font-weight: 700;
+	background: linear-gradient(to right, #60a5fa, #c084fc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 1.2em;
+}
+
+.navBar li {
+	border-bottom: 2px solid transparent;
+	transition: border-color 0.3s ease;
+}
+
+.navBar li:hover {
+	border-bottom: 2px solid #60a5fa;
+}
+
+.navBar li:hover a {
+	color: #fff !important;
+}
