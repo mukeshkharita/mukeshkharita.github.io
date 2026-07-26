@@ -13,6 +13,7 @@ const Resume = () =>
 		<div className={localStyles.experienceText}>
 			Experiences
 		</div>
+		<div className="hidden-xs">
 		<Row>
 			<Col sm={5} className={localStyles.expLeft} xs={12}>
 				<ScrollAnimation animateIn="fadeIn">
@@ -134,9 +135,57 @@ const Resume = () =>
 				</ScrollAnimation>
 			</Col>
 		</Row>
+		</div>
+		<div className="visible-xs-block">
+			<Row>
+				<Col xs={12} className={localStyles.mobileItem}>
+					<ScrollAnimation animateIn="fadeIn">
+						<div className={localStyles.heading}>Software Engineer</div>
+						<div className={localStyles.duration}>Stripe - December 2021 - Present</div>
+						<div className={localStyles.content}>Working on payment infrastructure, optimizing transaction flows, and enhancing security measures.</div>
+					</ScrollAnimation>
+				</Col>
+				<Col xs={12} className={localStyles.mobileItem}>
+					<ScrollAnimation animateIn="fadeIn">
+						<div className={localStyles.heading}>Software Engineer</div>
+						<div className={localStyles.duration}>Wayfair - August 2019 - November 2021</div>
+						<div className={localStyles.content}>Developed scalable e-commerce solutions, improved site performance, and contributed to UI/UX enhancements.</div>
+					</ScrollAnimation>
+				</Col>
+				<Col xs={12} className={localStyles.mobileItem}>
+					<ScrollAnimation animateIn="fadeIn">
+						<div className={localStyles.heading}>Open Source Contributor</div>
+						<div className={localStyles.duration}>WorldBrain - August 2017 - 2019</div>
+						<div className={localStyles.content}>Worked as a Full Stack JS Developer for the WorldBrain. Added multiple features bookmark/ unbookmark, Tagging the web pages, Filter by domains and tags.</div>
+					</ScrollAnimation>
+				</Col>
+				<Col xs={12} className={localStyles.mobileItem}>
+					<ScrollAnimation animateIn="fadeIn">
+						<div className={localStyles.heading}>Software Developer</div>
+						<div className={localStyles.duration}>HackerEarth - June 2018 - July 2019</div>
+						<div className={localStyles.content}>Worked on improving the build and deploy time of front-end, added multiple features such as integration of customized real time messaging platform, notifications, profiles, filters, cross browser compatibility issues etc.<br/><b>Tech Stack:</b> React, Django</div>
+					</ScrollAnimation>
+				</Col>
+				<Col xs={12} className={localStyles.mobileItem}>
+					<ScrollAnimation animateIn="fadeIn">
+						<div className={localStyles.heading}>Software Developer Intern</div>
+						<div className={localStyles.duration}>Health Drive - January 2017 - April 2017</div>
+						<div className={localStyles.content}>Worked on the backend for an android app to provide server-side authentication, profile etc.</div>
+					</ScrollAnimation>
+				</Col>
+				<Col xs={12} className={localStyles.mobileItem}>
+					<ScrollAnimation animateIn="fadeIn">
+						<div className={localStyles.heading}>Software Developer Intern</div>
+						<div className={localStyles.duration}>Cogoport - May 2017 - July 2017</div>
+						<div className={localStyles.content}>Worked as a full stack developer, added multiple new features such as notifications, profiles, tracking, user preferences settings etc., solved many concurrency issues.</div>
+					</ScrollAnimation>
+				</Col>
+			</Row>
+		</div>
 		<div className={localStyles.experienceText}>
 			Education
 		</div>
+		<div className="hidden-xs">
 		<Row>
 			<Col md={5} xs={12} className={localStyles.expLeft}>
 				<ScrollAnimation animateIn="fadeIn">
@@ -192,6 +241,29 @@ const Resume = () =>
 				</ScrollAnimation>
 			</Col>
 		</Row>
+		</div>
+		<div className="visible-xs-block">
+			<Row>
+				<Col xs={12} className={localStyles.mobileItem}>
+					<ScrollAnimation animateIn="fadeIn">
+						<div className={localStyles.heading}>B.Tech + M.Tech Dual Degree in Computer Science & Engneering</div>
+						<div className={localStyles.duration}>National Institute of Technology Hamirpur - July 2014 - May 2019</div>
+					</ScrollAnimation>
+				</Col>
+				<Col xs={12} className={localStyles.mobileItem}>
+					<ScrollAnimation animateIn="fadeIn">
+						<div className={localStyles.heading}>Class XII</div>
+						<div className={localStyles.duration}>K.D.S.P. Sr. Sec. Sechool - July 2012 - May 2014</div>
+					</ScrollAnimation>
+				</Col>
+				<Col xs={12} className={localStyles.mobileItem}>
+					<ScrollAnimation animateIn="fadeIn">
+						<div className={localStyles.heading}>Class X</div>
+						<div className={localStyles.duration}>K.D.S.P. Sr. Sec. Sechool - July 2010 - May 2012</div>
+					</ScrollAnimation>
+				</Col>
+			</Row>
+		</div>
 	</div>
 
 export default Resume
